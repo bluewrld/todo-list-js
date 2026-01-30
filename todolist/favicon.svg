@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="oceanGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0f172a" /> <stop offset="1" stop-color="#005bea" /> </linearGradient>
+    </defs>
+    <circle cx="32" cy="32" r="32" fill="url(#oceanGradient)" />
+
+    <path d="M18 10C18 10 24 4 32 6C38 7 42 12 36 18C33 21 28 20 28 24C28 28 34 28 38 30C42 32 46 36 44 42C42 48 38 56 34 58C32 59 30 56 30 52C30 46 26 42 22 38C18 34 16 30 18 24C19 20 14 16 14 12C14 10 18 10 18 10Z" 
+          fill="#38bdf8" 
+          fill-opacity="0.5" />
+    
+    <path d="M58 20C56 18 52 18 50 22C48 26 50 30 52 34C54 38 52 42 50 46" 
+          stroke="#38bdf8" 
+          stroke-width="3" 
+          stroke-linecap="round" 
+          stroke-opacity="0.3" />
+</svg>

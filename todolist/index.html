@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TodoList</h1>
+    </header>
+
+    <main>
+        <section>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Adicione uma nova tarefa" required>
+                <button type="submit" id="btn-submit">Adicionar</button>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>Suas Tarefas</h2>
+            <ul id="todo-list">
+                <!--- Tarefas serão adicionadas aqui --->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Feito por <a href="https://github.com/bluewrld" target="_blank">blueWRLD</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

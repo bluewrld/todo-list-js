@@ -125,6 +125,15 @@ hr {
     word-break: break-word;
 }
 
+.input-editar {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #1e293b;
+}
+
 .delete-btn {
     background-color: #ff6b6b;
     color: white;
@@ -134,10 +143,59 @@ hr {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-left: 10px;
 }
 
 .delete-btn:hover {
     background-color: #fa5252; 
+}
+
+.btn-cancelar {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.btn-cancelar:hover {
+    background-color: #fa5252; 
+}
+
+.edit-btn {
+    background-color: #48e1b6;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #60a18f;
+}
+
+.btn-salvar {
+    background-color: #48e1b6;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-salvar:hover {
+    background-color: #60a18f;
 }
 
 .todo-item:hover {
